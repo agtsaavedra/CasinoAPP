@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:tag="@string/FSA">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/FSA"
+            android:textAppearance="@android:style/TextAppearance.Material.Title"
+            android:textColor="@color/backgraundfragment" />
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleCircuito">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Casino"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtCasino5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Circuito 5"
+            android:textSize="17sp"
+            android:layout_weight=".8"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleCircuito">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Win Diario"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtWinDiarioCirc5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleCircuito">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Win Mensual"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtWinMensualCirc5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:clickable="true"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+    //Separador N1 circuito 5 fsa
+    <LinearLayout
+        android:layout_width="463dp"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleColorado"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Casino"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtColorado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Colorado"
+            android:textSize="17sp"
+            android:layout_weight=".8"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleColorado">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Win Diario"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtWinDiarioColorado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:text=" "
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleColorado">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Win Mensual"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtWinMensualColorado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+    //Separador N2
+    <LinearLayout
+        android:layout_width="463dp"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleHotelCasino"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Casino"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtHotelCasino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotel Casino"
+            android:textSize="17sp"
+            android:layout_weight=".8"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleHotelCasino">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Win Diario"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtWinDiarioHotelCasino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleHotelCasino">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Win Mensual"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtWinMensualHotelCasino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_weight=".8"/>
+
+    </LinearLayout>
+    //Separador N3 Hotel casino
+    <LinearLayout
+        android:layout_width="463dp"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleClorinda"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Casino"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtClorinda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clorinda"
+            android:textSize="17sp"
+            android:layout_weight=".8"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleClorinda">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Win Diario"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtWinDiarioClorinda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleClorinda">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Win Mensual"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtWinMensualClorinda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+    //Separador n4 Clorinda
+    <LinearLayout
+        android:layout_width="463dp"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetallePirane"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Casino"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtPirane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pirane"
+            android:textSize="17sp"
+            android:layout_weight=".8"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetallePirane">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Win Diario"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtWinDiarioPirane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetallePirane">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Win Mensual"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtWinMensualPirane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+    //Separador n5 Pirane
+    <LinearLayout
+        android:layout_width="463dp"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleSanMartin"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Casino"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtSanMartin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="San Martin"
+            android:textSize="17sp"
+            android:layout_weight=".8"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleSanMartin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Win Diario"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtWinDiarioSanMartin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:onClick="lanzarDetalleSanMartin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Win Mensual"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtWinMensualSanMartin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+    //Separador n6
+    <LinearLayout
+        android:layout_width="463dp"
+        android:layout_height="24dp"
+        android:orientation="horizontal"></LinearLayout>
+
+
+
+</LinearLayout>
